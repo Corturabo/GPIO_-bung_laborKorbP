@@ -1,7 +1,7 @@
 from gpiozero import LED,Button
 import time
 
-button=Button(24)
+button=Button(24,pull_up=True)
 
 led1 = LED(18)
 led2 = LED(22)
