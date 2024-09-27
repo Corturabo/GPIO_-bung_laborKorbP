@@ -15,5 +15,9 @@ while True:
         led1.value = led_state
         led2.value = not led_state
         time.sleep(0.1)  
+    if button==0:
+        led2.value=led_state
+        led1.value =led_state
+
   
 
